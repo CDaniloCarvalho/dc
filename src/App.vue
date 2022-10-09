@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="text-left">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
@@ -16,7 +16,12 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 15px;
+  background-color: rgba(207, 204, 204, 0.719);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 nav a {
